@@ -1,0 +1,23 @@
+{
+  "name": "easyarchive",
+  "version": "1.0.1",
+  "description": "Easy webpage archiving cli. Use either optional packages cheerio or puppeteer (not done yet) to archive webpages.  ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "optionalDependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^15.5.0"
+  },
+  "dependencies": {
+    "commander": "^9.4.0",
+    "jsoning": "^0.13.23",
+    "lodash": "^4.17.21",
+    "mime-types": "^2.1.35",
+    "node-fetch": "^2.6.7"
+  }
+}
